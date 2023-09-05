@@ -25,11 +25,3 @@ class MainActivity : ComponentActivity() {
     }
 }
 
-@Preview
-@Composable
-fun Preview()
-{
-    LearnTheme {
-        RootNav(navController = rememberNavController())
-    }
-}
